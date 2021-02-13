@@ -1,0 +1,31 @@
+.newPost{
+    height: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;  
+    margin: auto;
+}
+.buttons{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.label{
+    display: flex;    
+    margin-bottom: -16px;
+
+}
+.post{
+    height: 30px;
+    margin-bottom: 30px;
+}
+.content{
+    /* height: 160px; */
+    margin-bottom: 15px;
+}
+.button{
+    margin-left: 5px;
+    height: 35px;
+    width: 100px;
+}

@@ -1,0 +1,13 @@
+.loremIpsum{
+    width: 80%;
+    margin: 10px auto;
+    text-align: justify;
+}
+.chosenPost{
+    width: 80%;
+    margin: 10px auto;
+    text-transform: capitalize;
+}
+h3{
+    text-transform: capitalize
+}

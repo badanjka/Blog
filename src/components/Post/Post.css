@@ -1,0 +1,12 @@
+.title{
+    text-align: initial;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.description{
+    text-align: initial;
+    text-transform: capitalize;
+    margin-top: 13px;
+}

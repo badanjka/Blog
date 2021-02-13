@@ -1,0 +1,21 @@
+.header{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.bit{
+    padding: 10px;
+    font-size: 23px;    
+}
