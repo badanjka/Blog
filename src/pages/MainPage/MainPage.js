@@ -24,8 +24,8 @@ class MainPage extends Component {
         fetch('https://jsonplaceholder.typicode.com/posts', {
      method: 'POST',
      body: JSON.stringify({
-        title: this.props.title,
-        body: this.props.body,
+        title: this.state.title,
+        body: this.state.body,
         userId: 1,
     }),
     headers: {
@@ -33,7 +33,7 @@ class MainPage extends Component {
     },
     })
     .then((response) => response.json())
-    .then((json) => console.log(json));
+    .then((json) => window.location = window.location + 'home');
 }
     render() {
         return (
